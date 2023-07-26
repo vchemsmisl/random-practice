@@ -6,8 +6,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import classification_report
 
-from sklearn.ensemble import RandomForestClassifier
-
 
 def main() -> None:
     vectors_path = Path(__file__).parent / 'vectors.json'
