@@ -14,6 +14,7 @@
 ![alt text](https://github.com/vchemsmisl/random-practice/blob/spam/Spam%20classifier/result%20del_sw%3DFalse.png)
 
 А вот так со стоп-словами:
+
 ![alt text](https://github.com/vchemsmisl/random-practice/blob/spam/Spam%20classifier/result%20del_sw%3DTrue.png)
 
 Также попробовал увеличить размер n-граммы для создания векторов, но чото такое себе. Вот как стало при ngram_range=(2, 3):
