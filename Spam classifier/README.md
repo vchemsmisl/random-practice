@@ -10,11 +10,11 @@
 
 Посмотрел зависимость от некоторых гиперпараметров препроцессора.
 Лучше всего, на удивление, работает без удаления стоп слов:
-
+![alt text](https://github.com/vchemsmisl/random-practice/blob/spam/Spam%20classifier/result%20del_sw%3DFalse.png)
 А вот так со стоп-словами:
-
+![alt text](https://github.com/vchemsmisl/random-practice/blob/spam/Spam%20classifier/result%20del_sw%3DTrue.png)
 Также попробовал увеличить размер n-граммы для создания векторов, но чото такое себе. Вот как стало при ngram_range=(2, 3):
-
+![alt text](https://github.com/vchemsmisl/random-practice/blob/spam/Spam%20classifier/result%20ngram_range%3D(2%2C%203).png)
 
 Есть проблема: препроцессор работает очень медленно (~минут 15). Из решений приходит в голову стемминг вместо лемматизации и делать векторы поменьше. 
 Ещё было бы неплохо отрезать headersы у писем. Если будет не лень — доделаю.
